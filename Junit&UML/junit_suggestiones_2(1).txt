@@ -1,0 +1,349 @@
+ques 1:
+
+Which one of the following elements of a test plan in JMeter is used to configure and send the request to the
+server?
+
+a.Controller
+b.Configuration element
+c.Thread Group
+d.Listener
+
+ques 2:
+
+Which one of the following assert statements checks whether the expected and actual values are same for the float and double type of values?
+a.assertEquals([message],expected,actual)
+b.assertSame([message],expected,actual)
+c.assertEquals([message],expected,actual,tolerance)
+d.assertNotSame([message],expected,actual)
+
+ques 3:
+
+Which one of the following assert statements checks that the specified boolean condition is true?
+a. assertTrue([message], boolean condition)
+b. asserttrue([message])
+c. assertNull([message], object)
+d. assertSame([message], expected, actual)
+
+ques 4:
+
+Which one of the following colors signifies the code area that is left uncovered by the test cases?
+
+a. green
+b. yellow
+c. white
+d. red
+
+ques 5:
+
+Which one of the following options is an advantage of CI testing?
+
+a. Automated deployment
+b. User-oriented development
+c. Manageable data records
+d. Platform-dependent development
+
+ques 6:
+
+Which one of the following options do you need to select to include a CSV Data Set Config element into your test plan in JMeter?
+
+a. controller
+b. configuration element
+c. assertion
+d. listener
+
+ques 7:
+
+The individual units of a Web application are being integrated and tested to verify the overall functionality.
+Which level of testing is being referred in this case?
+a. System testing
+b. Performance testing
+c. Integration testing
+d. Acceptance testing
+
+
+ques 8:
+
+You have developed an application to print the prime numbers till n, where n is an input from the user. Now,you want to verify if the loop, which is displaying the prime numbers, is executed n times. Which one of the
+following boundary conditions will help you ensure the preceding requirement?
+a. Cardinality
+b. Conformance
+c. Range
+d. Ordering
+
+ques 9:
+
+You have developed an application to store the employee details, such as name, address, contact number,department, employee id, and date of joining. In this application, you have created the getter and setter methods for these properties. Now, you want to confirm if the format of date returned by the getter method of the date of joining property matches the format in the database because date can be stored in multiple formats. Which one of the following boundary conditions will help you ensure that the expected date is in compliance with the expected date's format?
+
+a. Cardinality
+b. Conformance
+c. Range
+d. Ordering
+
+ques 10:
+
+You have developed an application to store the employee details, such as name, address, department,employee id, and marital status. In this application, you have set the values for these properties within the constructor. Now, you want to confirm if these values are being passed to the constructor in the same
+sequence as received in the constructor because all of these properties have the String data type. Which one of the following boundary conditions will help you ensure the preceding requirement?
+a. Cardinality
+b. Conformance
+c. Range
+d. Ordering
+
+ques 11:
+
+You have to develop an application for a college to manage the data of its faculty. Post development, you need to test this application with numerous input values and verify the expected values with the actual result.Therefore, you plan to create separate data files for input and expected values instead of creating multiple test cases for each set of values. Which advantage of
+data-driven testing will you be able to achieve by performing the preceding task?
+a. Manageable records
+b. Updating data files with the change in the test plan
+c. Reduced redundancy in test cases
+d. Independent test scripting
+
+ques 12
+
+Lynda has created an email application thatcontains various Web pages, such as login, inbox, compose, draft,sent items, junk, logout, adminSuccess, and failure. In addition, she has added the username and password
+having the administrator rights. For this, she has created the following servlet class:
+public class LoginServlet extends HttpServlet
+Override protected void processRequest(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException
+{
+String name = request.getParameter("username");
+String password = request.getParameter("password");
+if (name.equals("admin") && password.equals("response.sendRedirect("adminSuccess.jsp");
+else
+response.sendRedirect("failure.jsp");
+
+Now, she needs to test this servlet for the successful login scenario. Which one of the following code snippets should she use to test the preceding servlet?
+
+find the correct ans from book
+
+a. @Test
+public void testProcessRequest() throws IOException, ServletException
+{
+when(mockHttpServletRequest.getParameter("username")).thenReturn("admin");
+when(mockHttpServletRequest.getParameter("password")).thenReturn("
+LoginServlet loginServlet= new LoginServlet();
+loginServlet.processRequest(mockHttpServletRequest, mockHttpServletResponse);
+verify(mockHttpServletResponse).sendRedirect("adminSuccess.jsp”);
+}
+
+ques 13
+
+Harry wants to test the functionality of the Web application using JWebUnit. For this, he needs to add the JWebUnit dependency into the Maven project. Which one of the following options will he use to fulfill the requirements?
+
+check the correct ans from book
+
+a.<dependencies>
+<dependency>
+<groupId>net.sourceforge.jwebunit</groupId>
+<artifactId>jwebunit-htmlunit-plugin</artifactId>
+<version>3.2</version>
+<scope>test</scope>
+</dependency>
+</dependencies>
+
+ques 14
+
+Taylor has developed an application to calculate the speed of an object, using the following code snippet:
+public double speed(double distance, double time)
+if(distance<0 ll time<0)
+throw new IllegalArgumentException();
+double 5;
+s=distance/time;
+return 5;
+He has written the following code snippet to test the preceding code:
+Test
+public void testSpeed()
+System.out.println("Testing speed() method");
+double distance = 300;
+double time = 5;
+Speed instance = new Speed();
+double epresult = 60;
+double result = instance.speed(distance, time);
+assertEquals(epresult, result,0.0);
+
+However, he is not able to achieve 100% code coverage. Which one of the following test cases will help him achieve 100% code coverage?
+
+a. @Test
+public void testSpeed2()
+System.out.println("Testing speed() method");
+double distance = 545.5;
+double time = 7.2;
+Speed instance = new Speed();
+double expResult = 75.76;
+double result = instance.speed(distance, time);
+assertEquals(epResult, result,0.5);
+
+b.@Test(expected=IllegalArgumentException.class)
+public void testSpeed2()
+System.out.println("Testing speed() method");
+double distance = 545.5;
+double time = 7.2;
+Speed instance = new Speed();
+double expResult = 75.76;
+double result = instance.speed(distance, time);
+assertEquals(epResult, result,0.5);
+
+c.@Test
+public void testSpeed2()
+System.out.println("Testing speed() method");
+double distance = 200;
+double time = 5;
+Speed instance = new Speed();
+double expResult = 40;
+double result = instance.speed(distance, time);
+assertEquals(expResult, result,0.0);
+
+d. @Test
+public void testSpeed2()
+System.out.println("Testing speed() method");
+double distance = 769;
+double time = 7.2;
+Speed instance = new Speed();
+double epResult = 106.80;
+double result = instance.speed(distance, time);
+assertEquals(epresult, result,0.5);
+
+ques 15:
+
+Williams has developed an application for a shopping website hosting various types of products, such as electronics, cosmetics, clothing, and jewelry. However, only authorized users can access and purchase these products. For this, you have created a filter in the application. The filterredirectsusers from the items.jsp page to the login.jsp page, whenthey access the items.jsp page directly. Now, you need to test this filter using the Mockito framework. Which one of the following code snippets will you use to accomplish the preceding task?
+
+a. public void testDoFilterMethod() throws Exception
+{
+HttpServletRequest mockHttpServletRequest = mock(HttpServletRequest.class);
+HttpServletResponse mockHttpServletResponse = mock(HttpServletResponse.class);
+FilterChain mockFilterChain = mock(FilterChain.class);
+when(mockHttpServletRequest.getRequestURI()).thenReturn("/ShopTop/login.jsp");
+MyFilter myFilter = new MyFilter();
+myFiIter.doFilter(mockHttpServletRequest, mockHttpServletResponse, mockFilterChain);
+verify(mockHttpServletRequest, atLeast(1)).getRequestURI();
+verify(mockHttpServletResponse).sendRedirect("/ShopTop/Login.jsp"); 
+}
+
+b. @Test
+
+public void testDoFilterMethodO throws Exception
+{
+FilterChain mockPilterChain = mock(FilterChain.class):
+when(mockHttpServletRequest. getRequestURI()).thenReturn(" ShopTop/items.jsp");
+MyFilter myFilter = new MyFilter():
+myFilter.doFilter(mockFilterChain):
+verify(mockHttpServletRequest. atLeast(1)).getRequestURI():
+verify(mockHttpServletResponse).sendRedirect("/ShopTop/login.jsp"):
+
+c. @Test
+
+public void testDoFilterMethodO throws Exception
+
+HttpServletRequest mockHttpServletRequest = mock(HTTPServletRequest.class);
+HttpServletResponse mockHttpServletResponse
+mock(HttpServletResponse.class):
+FilterChain mockFilterChain = mock(FilterChain.class):
+when(mockHttpServletRequest. getRequestURI()).thenReturn( ", "ShopTop/login.jsp");
+MyFilter myFilter = new MyFilter():
+myFilter.doFilter(mockHttpServletRequest. mockHttpServletResponse.
+mockFilterChain);
+verify(mockHttpServletRequest. atLeast(1)).getRequestURI();
+verify(mockHttpServletResponse).sendRedirect("/ShopTop/login.jsp");
+}
+
+d. @Test
+public void testDoFilterMethodO throws Exception
+{
+HttpServletRequest mockHttpServletRequest = mock(HttpServletRequest.class);
+HttpServletResponse=mockHttpServletResponse=
+mock(HttpServletResponse.class):
+
+FilterChain mockFilterChain = mock(FilterChain.class):
+when(mockHttpServletRequest. getRequestURI()).thenReturn( "ShopTop/items.jsp");
+MyFilter myFilter = new MyFilterO:
+myFilter.doFilter(mockHttpServletRequest. mockHttpServletResponse.
+mockFilterChain);
+verify(mockHttpServletRequest.atL east( 1)).getRequestURI():
+verify(mockHttpServletResponse).sendRedirect( "/ShopTop/login.jsp");
+
+ques 16:
+
+Sam has developed an EJB module for the conversion of distances into different units, such as kilometers,meters, and miles. Now, he needs to test this module. For this, Sam has written the following code snippet in the pom.xml file to add the server property:
+<properties>
+<endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<glassfish.embedded-static-shell.jar>C:/Program Files/glassfish-4.1/glassfish/lib/embedded/glassfish-
+embedded-static-shell.jar</glassfish.embedded-static-shell.jar>
+</properties>
+Now, he needs to add the server dependency. Which one of the following code snippets should Sam use to accomplish the preceding requirement?
+</dependency> 
+
+search for ans in book
+a. <dependency>
+<groupId>org.glassfish.extras</groupId>
+<artifactId>glassfish-embedded-static-shell</artifactId>
+<version>4.1</version>
+<scope>system<scope>
+<systemPath>${glassfish.embedded-static-shell.jar}</systemPath>
+</dependency>
+
+ques 17
+
+Samantha has created an application for maintaining the details of the author of a publication. In this application, she has created a servlet that validates the login credentials and redirects the authors to the appropriate page. Now, you need to test the functionality of the servlet by using the Mockito framework. For this, you have added the dependencies in the pom.xml file, using the following code snippet:
+<dependency>
+<groupId>org.easymock</groupId>
+<artifactId>easymock</artifactId>
+<version>3.2</version>
+scope>test</scope>
+<groupId>org.glassfish.extras</groupId>
+<artifactId>glassfish-embedded-static-shell</artifactId>
+<version>4. 1</version>
+scope>test</scope>
+</dependency>
+
+Then, you created the test class and executed your test cases. On executing your test, you encountered certain errors. Which one of the following code snippets will you use to rectify the error?
+
+please search for ans in book
+
+ques 18:
+Sandra has developed a book management application that uses the libraryDetails table created in the MySQL database. Post development.she wants to test this application using DbUnit. Therefore. she creates a test class by extending the DatabaseTestCase class. Now, she needs to write a test case for testing the application. For this. she has written the following code snippet:
+ 
+public void testCheckDataLoaded()
+throws Exception{
+IDataSet databaseDataSet = 
+getConnection().createDataSet();
+IDataSet expectedDataSet = new 
+FlatXmlDataSetBuilder().build(new 
+File("expectedData.xml"));
+Assert.assertEquals(expectedDataSet.
+databaseDataSet);
+
+However,the preceding test case generates an error on execution.Which one of the following code snippets should she use to rectify the error? 
+
+a. public void testCheckDataLoaded throws Exception{
+IDataSet databaseDataSet = gctConnection().createDataset():
+ITable actualTable = databaseDataSet.getTable("LibraryDetails");
+IDataSet expectedDataSet = new FlatXmlDataSetBuilder().build(new
+File("expectedData.xml"));
+ITable expectedTable = expectedDataSet.getTable("LibraryDetails");
+Assert.assetEquals(expectedDataSet. actualTable);
+
+b. public void testCheckDataLoaded() throws Exception{
+IDataSet databaseDataSet = getConnection().createDataSet();
+ITable actualTable = databaseDataSet.getTable("LibraryDetails");
+IDataSet expectedDataSet = new FlatXmlDataSetBuilderObuildnew
+File("expectedData.xml"));
+ITable expectedTable = expectcdDataSet.getTable("LibraryDetails");
+Assert.assertEquals(expectedDataSet. databaseDataSet);
+
+c. public void testCheckDataLoadedO throws Exception{
+IDataSet databaseDataSet = getConnection().createDataSet();
+ITable actualTable = databaseDataSet.getTable("LibraryDetails");
+IDataSet expectedDataSet = new FlatXmlDataSetBuilder().build(new
+File("expectedData.xml"));
+ITable expectedTable = expectedDataSet.getTable(LibraryDetails");
+Assertion.assertEquals(expectedTable. actualTable);
+
+d. public void testCheckDataLoaded() throws Exception{
+IDataSet databaseDataSet = getConnection().createDataSetO:
+ITable actualTable = databaseDataSet.getTable("LibraryDetails");
+IDataSet expectedDataSet = new FlatXmlDataSetBuilder().build(new
+File("expectedData.xml"));
+ITable expectedTable = expectedDataSet.getTable("LibraryDetails");
+Assert.assertEquals(expectedTable. actualTable);
+
+
+

@@ -1,0 +1,162 @@
+1.) Hibernate provides ________ to bridge the gap between OOP and relational database paradigms ? Ans:C
+
+     a. XML
+     b. HTML
+     c. ORM
+     d. XHTML
+
+2.) which query language does hibernate provides to enable you to store and retrieve data from that databse tables ?
+
+    a. SQL
+    b. PL/SQL
+    c. PL/HQL
+    d. HQL
+
+3.) Rivan wants to use criteria query to query Customer table in the database to retrieve all the information.which of the following code shoukd Rivan use ?
+
+     a. Criteria criteria = session.createCriteria(Customer.class); List myList =  criteria.list();
+     b. Criteria criteria = session.createCriteria(Customer.class); List myList =  criteria.get();
+     c. Criteria criteria = session.createCriteriaQuery(Customer.class); List myList =  criteria.list();
+     d. Query query = session.createCriteriaQuery(Customer.class); List myList = query.list();
+  
+4.) An instance of the ______   interface is created by using an object of the configuration class. 
+This instance is used to open a session to communicate with the database?
+
+      a. SessionFactory
+      b. Session
+      c. Transaction
+      d. Configuration
+
+5.) while mapping classes with the properties of the database tables, the value types are mapped as a ______ of the entity class ? 
+
+      a. identity
+      b. property
+      c. generator
+      d. component
+
+6.) which of the following methods is used to persist the newly created object into the database ?
+
+     a. load()
+     b. commit()
+     c. save()
+     d. persist()
+
+
+
+7.) which of the following statndard validator tags is used to validate an input against a specified pattern? Ans: D
+
+    a. <c:vlidateLongRange>
+    b. <c:validateLength>
+    c. <c:validateRequired>
+    d. <c:validateRegex>
+
+8.) which of the following navigation mechanism allows home page of the web application to be accessible from all other pages of the web application?
+
+   a. Perform Conditional naviugation.
+   b. create a global naviugation rulew.
+   c. use implicit navigation rule.
+   d. use static navigation.
+
+9.) which of the following java classes provided by JSF should be implemented to store the information about the button click event ?
+
+	 a. SystemEvent
+         b. PhaseEvent
+         c. ValueChangeEvent
+         d. ActionEvent
+
+10)  which of the following renderer kit allows to insert some attractive images and animations on a website?
+
+      a. HTML renderer kit.
+      b. WML renderer kit.
+      c. Graphics renderer kit.
+      d. SVG renderer kit.
+
+11.) which of the following element in the navigation rule causes the client browser to make a new HTTP request for specified view ?
+
+       a. <from-outcome>
+       b. <redirect/>
+       c. <navigation-case>
+       d. <from-action>
+
+12.) which navigation tag will allow to navigate to th login page from the home page of a website on clicking a hyperlink ?
+
+      a. <from-outcome>
+      b. <to-view-id>
+      c. <from-action>
+      d. <from-view-id>
+
+13.) which of the following tags in the facelets tag library allows to create editable areas in a web page to display contents specific to the web page ?
+
+     a. <ui:include>
+     b. <ui:insert>
+     c. <ui:composition>
+     d. <ui:define>
+
+14.) which attribute of the <f:ajax> tag should be used to send all the UI components of a page to the server for processing ? 
+
+    a. event
+    b. render
+    c. immediate
+    d. execute
+
+
+
+15.) REST is based on which protocol ? Ans : A
+
+       a. HTTP
+       b. TCP/IP
+       c. UDP
+       d. FTP
+
+16.) which of the following is a modular development approach for the independent development of software components of a web service ? Ans : D
+
+      a. Bottom up apprach using a POJO class.
+      b. Top-down approach using a WSDl file.
+      c. Bottom-up approach using a database.
+       d. Top down appraoch using an entity class.
+
+
+17.) which of the following exception clas is used to handle situations in which aweb service is receiving an incorrect data format or incorrect XML data ? ANS:B
+
+      a.WebException class.
+      b. WebApplicationException class.
+      c. WeServiceException class.
+      d. WebResourceException class.
+
+
+
+18.) The Metro web service is an integration of _______ /  Ans : A
+
+     a. JAX-WS and WSIT.
+     b. JAX_RS and WSIT.
+     c. JAX-WS and JAX-RS.
+     d. JAX-RS and JAXR.
+
+19.) which of the following patterns can be used when there is a performance bottleneck due to the time taken to complete an operation ? Ans: B
+
+    a. HTTP load balancing pattern.
+    b. Web Service Cahce pattern.
+    c. Web Service broker pattern.
+    d. Web service logger pattern.
+
+20.) which of the following statements holds true about the first layer of the metro service stack ? Ans : A
+
+      a. It describes the core technologies of web services such as SOAP and HTTP. 
+      b. It enables you to subscribe to the features that you have to use in your web service.
+      c. It provides features such as transactions, reliability and security.
+      d. It describes the XML processing API.
+
+21) which of the following package contains the data Handler class to attach no XML large files in a web service ? Ans : B
+
+      a. javax.activation
+      b. javax.xml.parsers.
+      c. org.xml.sax.ext
+      d. javax.xml.bind.util.
+
+
+
+
+
+
+
+

@@ -1,0 +1,179 @@
+1.)Which of the following elements of an activity diagram is responsible for deciding the path of control flow based on a condition?
+
+a.pin
+b.partition 
+c.transition
+d.decison
+
+2.)Which of the followings is NOT a type of a UML building block?
+
+a. Basic UML constituents
+b. Relationships
+c. Activities
+d. Diagrams
+
+3.)Consider the following statements:
+
+Statement A: A sub state is a state that is contained within another state.
+Statement B: A state that contains different sub states is called a simple state.
+
+Which of the following options is correct with respect to the preceding statements?
+
+a.Both, Statement A and Statement B, are False.
+b.Both, Statement A and Statement B, are True.
+c.Statement A is True and Statement B is False.
+d.Statement A is False and Statement B is True.
+
+4.)Consider the following statements:
+
+Statement A: Executable file modeling technique models the executable components of a software system by modeling .exes, libraries, and databases contained in the system.
+
+Statement B: Database modeling techniques model database components by using deployment diagram.
+
+Which of the following options is correct, with respect to the preceding statements?
+
+a.Both, Statement A and Statement B, are False.
+b.Both, Statement A and Statement B, are True.
+c.Statement A is True and Statement B is False.
+d.Statement A is False and Statement B is True.
+
+5.)The input devices, mouse and keyboard are used to provide input signals to computer. Further, the mouse signals are classified in two signals, mouse move and mouse click.What is the relationship between input devices and signals if you need to design input device application software?
+
+a.Object flow
+b.Control flow
+c.Generalization
+d.Dependency
+
+6.)Consider the attribute and operation declared in a class:
+
+-IssueDate: Date [1] = “01-01-04" {ReadOnly}
++BookIssueRequest(BookName:String): Boolean
+
+Which of the following options represents the parameter name, default value, and return type?
+
+a.BookIssueRequest, 01-01-04, and Boolean
+b.IssueDate, 01-01 04, and Date
+c.BookName, 01-01-04 and Boolean
+d.BookName, String, and Date
+
+7.)Info Solutions Inc. has been assigned the task of By implementing Concurrent expansion region developing online test application for National 
+University. The test is taken by multiple students at a time.therefore. questions should be displayed in random order for all the students.How does the  application display questions in random order on different machines?
+
+a.By implementing concurrent expansion region
+b.By implementing iterative expansion region
+c.By implementing stream expansion region
+d.By implementing pin expansion region
+
+
+8.)Which of the following options is NOT a part of  Use Case diagram?
+
+a.Actors
+b.Relationships
+c.Use case
+d.Properties of an actor
+
+9.)As an analyst, you are responsible for creating a design pattern to establish a common terminology for problems and to improve understanding. The design pattern should enable creation of objects along with managing their lifecycle.Which of the following design patterns will you choose to perform the desired task?
+
+a.Singleton
+b.Creational
+c.Structural
+d.Behavioural
+
+
+10.)Dyans Systems is developing an administration system for a Steel manufacturing company. The requirement analyst gathers the requirements of the system and the developer derives the use cases and actors for the envisioned system. A meeting of the software development team and stakeholders of the system is scheduled to take place where the stakeholders are interested in viewing the functionality, which the envisioned system will offer to each of them. You need to identify the UML diagram that needs to be created so that the stakeholders can view the correct information.
+
+a.YOU need to create a package daigram to group the use cases based on Include and extend relationships to view the architecture from allocation viewtype.
+b.You need to create a package diagram to group the use cases based on the functional module each of use cases represent view the architecture using module viewtype.
+c.You need to create a package diagram where each package contains use cases used by a single actor.
+d.You need to create a package diagram to group the use cases based on the actors so that each package contains use cases used by a particular actor. In addition each package should consist of the include and extend relationships for the use cases.
+
+11.)Janes Technology is developing an online banking software system. Some of the classes of the system are:customer, bank, and account. The various interfaces for the system are: ICashWithdrawl, ICashDeposit, and IBaIanceEnquiry. The interface IConnection is created for connection with database.The components CashWithdrawl,CashDeposit, and BalanceEnquiry realize ICashWithdrawl, ICashDeposit, and IBaIanceEnquiry respectively. Similarly, ConnectionManager realizes IConnection and provides access to the  bank database.All the components of the system access the bank database. Refer to the component diagram shown in the following figure and identify the error in the component diagram.
+
+check image_uml_q11
+
+a.You need to depict the dependency of the ICashWithdrawl, ICashDeposit, and IBaIanceEnquiry interfaces on the ConnectionManager component because it provides access to the database.
+
+b.You should not depict the interfaces of each of the components realized in a component diagram.
+You need to depict the dependency of the ICashWithdrawl, ICashDeposit, and IbalanceEnquiry.
+
+c.You need to depict the dependency of the CashWithdrawl, CashDeposit, and
+BalanceEnquirycomponents on the ConnectionManager component because it provides access to the database.
+
+12.)Which of the following UML diagrams is used to depict the physical resources of the system?
+
+a.component daigram
+b.deployment daigram
+c.object daigram
+d.state machine daigram
+
+13.)Which of the following processes are used to identify the System boundary in a development process of a system?
+
+a.By identifying interactions between use cases and actors of each iteration.
+b.By identifying the iterations to develop the system.
+c.By prioritizing the use cases of the system.
+
+a. a and b
+b. a and c
+c. b and c
+d. a,b and c
+
+14.)The Accounts class of a banking system has an operation called CalculateInterest.The return type of the operation is float. The operation is not visible to any other class of the system. Balance and InterestRate are the two float type parameters of the operation.
+
+Which of the following options represents the correct declaration of the operation?
+
+a.-float CalculateInterest(Balance:float,InterestRate:float)
+b.+CalculateInterest(Balance:float,InterestRate:float):float
+c.+float CalculateInterest(Balance::float,InterestRate::float)
+d.-CalculateInterest(Balance:float,InterestRate:float):float
+
+15.)You have recently joined a software development company as a senior software developer. As part of your first assignment, you have to add functionality to an existing application. You are informed that the customer
+requirements have changed, since the application was first eveloped.Therefore, you need to add extra functionality to the various user interface elements such as toolbars, icons, and menu bars in the existing application.
+
+Which of the following design patterns will help you achieve the desired requirements?
+
+a.Proxy
+b.Decorator
+c.Facade
+d.Composite
+
+16.)consider the following statements:
+Statement A: Executable file modeling technique models the executable component ,exes, libraries, and databases contained in the system.
+Statement B:Database modeling techniques model database component by using deployment daigram.
+
+which of the following options is correct with respect to the preceding statement?
+
+
+a.both a and b are false
+b.both a and b are true
+c.a is true,b is false
+d.a is false,b is true
+
+
+17.)BlueStreak solutions is developing a hotel management software system. The use cases identified by the development team are:bookroom,cancelbooking,updateroom status,check availability.The classes identified by the development team are :customer,room,hotelsystem.The team leader needs to depict  the various components and the relationships between the components.What perspective of architecture needs to be modeled so that the team leader can clearly visualize  various components and the relationships between them.
+
+a.component viewtype
+b.allocation viewtype
+c.module viewtype
+d.c&c viewtype
+
+18.)Which of the following options represent the name given to the multiple slots in collabration?
+
+a.roles
+b.objects
+c.relations
+d.operation
+19.)How the flow of control in an 
+operation or among use case is represented in an interaction daigram?
+
+a.using collabration
+b.using interaction
+c.depicting relationship
+d.applying operation
+
+
+
+
+
+
+
+
